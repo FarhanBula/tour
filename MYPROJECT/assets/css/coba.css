@@ -1,0 +1,250 @@
+ @charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #b8b8b8;
+	font-family: cambria,Times,verdana, sans-serif;
+}
+.gambar_background{
+	width: 100%;
+	padding: 100px;
+	color: #ffffff;
+}
+
+.header{
+	width: 80%;
+	height: 8%;
+	float: right;
+	background-color: #F5FFFA;
+}
+.color{
+	background-color: #696969;
+	height: 7%;
+	width: 82%;
+	float: right;
+}
+ .header2{
+	width: 18%;
+	height: 15%;
+	float: left;
+	background-color: #808080;
+	position: fixed;
+ }
+
+
+.posisi_kiri{
+	width: 18%;
+	height: 657px;
+	float: left;
+	background-color: #a9a9a9;
+	position: fixed;
+}
+.posisi_kanan{
+	width: 100%;
+	height:93%;
+	float: left;
+	background-color: #dcdcdc;
+
+}
+.name_sistem3{
+	padding:11px;
+	width :4%;
+	float: right;
+	color: white;
+	font-size: 16px;
+}
+.name_sistem2{
+	padding:1px;
+	width :6%;
+	float: right;
+	color: white;
+	font-size: 16px;
+	margin-right: 7px;
+}
+
+.name_sistem{
+	width: 40%;
+	padding: 10px;
+	float: left;
+	color: white;
+	font-size: 20px;
+}
+
+.bgr_profil{
+	width:50px;
+	padding: 25px;
+	height: 50px;
+	margin:20px 50px 50px 20px;
+	border:1px solid black;
+	box-shadow: 0 0 10px #fff;
+	background-color: white;
+}
+
+
+.keterangan{
+	width: 95%;
+	height: 15px;
+	padding:5px;
+	padding-left: 20px;
+	font-size: calc(14/10 * 100%);
+}
+
+.posisi_search{
+	width:20% ;
+	float: right;
+	margin-right: 0px;
+}
+.posisi_lgsearch{
+	width:5%;
+	padding-top: 6px;
+	float: right;
+	margin-right: 1px;
+}
+
+.search{
+	padding: 9px;
+
+	width: 31%;
+}
+.button1{
+ display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.button2{
+	background-color: #ef7603;
+	border :none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 1px 1px;
+	cursor: pointer;
+}
+.button3{
+	background-color: #ff5500;
+	border :none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	font-size: 12px;
+	margin: 1px 1px;
+	cursor: pointer;
+}
+.button4{
+	background-color: #2daa4b;
+	border :none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 0px;
+	cursor: pointer;
+}
+
+.button{ display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.row{
+	background-color: #fff;
+	padding: 1px;
+	text-align: left;
+}
+.md-6{
+	width: 50%;
+	background-color: #34495e;
+	display: inline-block;
+	margin-left: 2px;
+}
+
+
+.md-12{
+	width: 99%;
+	background-color: #ffffff;
+	display: inline-block;
+	margin-left: 7px;
+}
+.kolom-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+}
+
+.kolom-75 {
+	float: right;
+	width: 75%;
+	margin-top: 6px;
+}.form-element{
+	width: 75%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+
+.form-label{
+	padding: 10px 12px 12px 0;
+	font-size: calc(20/17 * 100%);
+	text-align: right;
+	display: block;
+}
+
+.baris:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.avatar img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border:10px solid white;
+}
